@@ -51,7 +51,7 @@ define([
             if (this.xhr) {
                 this.xhr.abort();
             }
-            this.aborted = true;
+            this._aborted = true;
         },
 
         /**
