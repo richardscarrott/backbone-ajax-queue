@@ -1,0 +1,31 @@
+{
+  "name": "backbone-ajax-queue",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": null,
+    "underscore": null,
+    "backbone": null,
+    "requirejs": null
+  },
+  "homepage": "https://github.com/richardscarrott/backbone-ajax-queue",
+  "authors": [
+    "Richard Scarrott <riscarrott@googlemail.com>"
+  ],
+  "description": "An ajax queue implementation for Backbone",
+  "main": "src/backbone-ajax-queue.js",
+  "keywords": [
+    "Backbone",
+    "Ajax",
+    "Queue",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/bower_components",
+    "test",
+    "tests"
+  ]
+}
