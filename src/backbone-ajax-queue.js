@@ -40,7 +40,7 @@ define([
                 if ((xhr._type || '').toUpperCase() === 'POST') {
                     return false;
                 }
-                return queueError();
+                return queueError.apply(this, arguments);
             }
         });
 
